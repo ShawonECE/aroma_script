@@ -1,4 +1,18 @@
 #shopify-section-template--15892679852226__370074f8-a6fa-41cb-ae57-c614b44b5d05 > .section > .section__color-wrapper > .container > .promotion-block-list {
     margin: calc(-1 * var(--promotion-block-gutter) / 3);
     margin-bottom: calc(var(--promotion-block-gutter) / 3);
+    max-height: auto !important;
+}
+
+#shopify-section-template--15892679852226__370074f8-a6fa-41cb-ae57-c614b44b5d05 > .section > .section__color-wrapper > .container > .promotion-block-list > .promotion-block {
+	min-height: 400px !important;
+}
+
+#shopify-section-template--15892679852226__370074f8-a6fa-41cb-ae57-c614b44b5d05 > .section > .section__color-wrapper > .container > .promotion-block-list > .promotion-block img {
+		width: 100% !important;
+		height: auto;
+}
+
+#new-img {
+	height: 98% !important;
 }
